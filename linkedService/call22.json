@@ -1,0 +1,13 @@
+{
+	"name": "call22",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDatabricks",
+		"typeProperties": {
+			"domain": "https://adb-7405615181528315.15.azuredatabricks.net",
+			"existingClusterId": "0824-104400-ien0ykcy",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEFEMTBERTlFLTUzNUMtNDgzMy1BRUZFLTZBMEIyQUEwQzFDNF8wNzE2ZDk0NS0yM2Q4LTRhZTAtYmY3NS0xNjgyNWQyYTdiY2MiDQp9"
+		}
+	}
+}
