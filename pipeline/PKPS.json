@@ -1,5 +1,5 @@
 {
-	"name": "call15",
+	"name": "PKPS",
 	"properties": {
 		"activities": [
 			{
@@ -15,7 +15,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"notebookPath": "/Users/ganya.inffo@gmail.com/call5"
+					"notebookPath": "/Users/ganya.inffo@gmail.com/pspk"
 				},
 				"linkedServiceName": {
 					"referenceName": "call22",
