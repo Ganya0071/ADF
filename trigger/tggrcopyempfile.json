@@ -1,0 +1,25 @@
+{
+	"name": "tggrcopyempfile",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "trigger",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 2,
+				"startTime": "2026-08-31T11:49:00",
+				"endTime": "2026-09-01T06:15:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
