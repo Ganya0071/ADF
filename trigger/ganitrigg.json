@@ -1,0 +1,25 @@
+{
+	"name": "ganitrigg",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "triggpspk",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 3,
+				"startTime": "2026-08-31T12:39:00",
+				"endTime": "2026-08-31T12:49:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
