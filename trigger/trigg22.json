@@ -1,0 +1,25 @@
+{
+	"name": "trigg22",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "Trigg2",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 4,
+				"startTime": "2026-08-31T12:20:00",
+				"endTime": "2026-09-01T12:40:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
